@@ -137,7 +137,7 @@ body {
 }
 .container {
   width: 90%;
-  margin: 50px;
+  margin: 50px 50px 0 50px;
 }
 header nav {
   display: flex;
@@ -272,4 +272,14 @@ section {
 }
 .bottom-content ul ol {
   word-spacing: 16px;
+}
+footer {
+  background: darkgray;
+}
+footer h3 {
+  color: whitesmoke;
+  text-align: center;
+  padding: 50px;
+  margin-top: 3rem;
+  font-size: 1.3rem;
 }
