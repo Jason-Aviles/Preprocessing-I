@@ -173,7 +173,7 @@ section {
   justify-content: flex-start;
   align-items: stretch;
   flex-direction: column;
-  background: #b3b3b370;
+  background: #b3b3b31f;
   width: 100%;
   border-radius: 8px;
   padding: 70px 30px;
@@ -273,7 +273,8 @@ section {
   word-spacing: 191px;
 }
 .bottom-content ul .table-header {
-  background: rgba(181, 181, 217, 0.83);
+  font-weight: bold;
+  background: #c04949;
   color: white;
 }
 .bottom-content ul li {
@@ -287,9 +288,10 @@ section {
 #contact {
   margin-top: 3rem;
   line-height: 2rem;
+  font-weight: bold;
 }
 footer {
-  background: darkgray;
+  background: #000000fa;
 }
 footer h3 {
   color: whitesmoke;
