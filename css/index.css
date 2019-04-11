@@ -125,6 +125,7 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  padding: 26rem;
 }
 /* Set every element's box-sizing to border-box */
 * {
@@ -258,6 +259,8 @@ section {
 }
 .bottom-content {
   margin-top: 3rem;
+  width: 90%;
+  margin: 20px 0;
 }
 .bottom-content h2 {
   font-family: 'Sigmar One', cursive;
@@ -272,11 +275,6 @@ section {
   line-height: 29px;
   word-spacing: 191px;
 }
-.bottom-content ul .table-header {
-  font-weight: bold;
-  background: #c04949;
-  color: white;
-}
 .bottom-content ul li {
   border: 1px solid #c8c8d375;
   width: 55rem;
@@ -284,6 +282,16 @@ section {
 }
 .bottom-content ul ol {
   word-spacing: 16px;
+}
+.table-header {
+  font-weight: bold;
+  background: #c04949;
+  color: white;
+}
+td {
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px 13px;
 }
 #contact {
   margin-top: 3rem;
